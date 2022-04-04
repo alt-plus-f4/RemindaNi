@@ -171,5 +171,42 @@ a button:hover
     font-size: 24px;
 }
 
+#features
+{
+    margin-top: 25px;
+    height: 275px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: rgba(255, 227, 198, 0.6);
+}
 
+#features .image
+{
+    max-width: 450px;
+    max-height: 250px;
+    float: left;
+    margin: 0 0 0 15px;
+    margin-left: 75px;
+    border-radius: 10px;
+}
 
+#features .text
+{
+    margin-left: 40px;
+    color: white;
+}
+
+#features .head-sentance
+{
+    margin-left: 140px;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+#features .sentance
+{
+    font-size: 24px;
+    margin-top: 1px;
+    margin-left: 190px;
+    font-size: 24px;
+}
