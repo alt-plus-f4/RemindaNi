@@ -128,23 +128,59 @@ a button:hover
 
 form .title
 {
-    border: none;
     background: none;
     margin-bottom: 6px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-width: 2px;
+}
+
+form .title:focus,
+form .title:valid
+{
+    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-width: 3px;
 }
 
 form .today
 {
-    border: none;
     background: none;
     margin-bottom: 6px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-width: 2px;
+}
+
+form .today:focus,
+form .today:valid
+{
+    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-width: 3px;
 }
 
 form .now
 {
-    border: none;
     background: none;
     margin-bottom: 6px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-width: 2px;
+}
+
+form .now:focus,
+form .now:valid
+{
+    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-width: 3px;
 }
 
 form .note
@@ -152,6 +188,19 @@ form .note
     resize: none;
     background: none;
     margin-bottom: 6px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-width: 3px;
+}
+
+form .note:focus,
+form .note:valid
+{
+    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-width: 4px;
 }
 
 form .deleat-button
