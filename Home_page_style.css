@@ -135,6 +135,14 @@ a button:hover
     margin-bottom: 50px;
 }
 
+#proof
+{
+    margin-top: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: rgba(255, 227, 198, 0.6);
+}
+
 #benefits
 {
     height: 300px;
