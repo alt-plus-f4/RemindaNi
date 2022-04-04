@@ -101,5 +101,12 @@ a button:hover
 
 #info-box
 {
-    background-color: #ffe3c6;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 24px;
+    gap: 24px;
+    background: rgba(255, 227, 198, 0.5);
 }
