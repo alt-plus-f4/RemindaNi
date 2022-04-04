@@ -92,3 +92,8 @@ a button:hover
 {
     background: linear-gradient(-135deg, orange, red)
 }
+
+div .info-box
+{
+    background-color: #ffe3c6;
+}
