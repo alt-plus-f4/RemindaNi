@@ -164,7 +164,7 @@ form .deleat-button:hover
     cursor: pointer;
 }
 
-.add-task-button
+#add-task-button
 {
     height: 200px;
     border: none;
@@ -176,7 +176,7 @@ form .deleat-button:hover
     cursor: pointer;
 }
 
-.add-task-button:hover
+#add-task-button:hover
 {
     background: rgba(0, 0, 0, 0.2);
     font-size: 130px;

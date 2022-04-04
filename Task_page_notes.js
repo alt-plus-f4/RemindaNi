@@ -46,7 +46,9 @@ function addTask() {
     form.appendChild(discription);
     form.appendChild(submit);
 
-    document.getElementById("add-task-box").insertBefore(elem, target);
+    const target = document.querySelector('#add-task-button');
+
+    document.getElementById("add-task-box").insertBefore(form, target);
 } 
 
 function removeTask(id)
