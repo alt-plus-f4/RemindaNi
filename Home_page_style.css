@@ -110,9 +110,25 @@ a button:hover
     background: rgba(255, 227, 198, 0.5);
 }
 
+#value-proposition
+{
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: rgba(255, 227, 198, 0.6);
+}
+
 #value-proposition .logo
 {
-    margin-left: 250px;
-    max-width: 650px;
+    margin-left: 350px;
+    max-width: 450px;
     max-height: 300px;
+}
+
+#value-proposition p
+{
+    margin-left: 100px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-bottom: 50px;
 }
