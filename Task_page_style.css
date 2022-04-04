@@ -26,7 +26,12 @@ header
     justify-content: flex-end;
     align-items: center;
     padding: 0px 10%;
-    background-color: #fffaf0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 header .logo
@@ -60,6 +65,7 @@ nav
 {
     transition: all 0.1s ease 0s;
     text-decoration: none;
+    color: #ffba00;
 }
 
 .links li a:hover
@@ -104,7 +110,7 @@ a button:hover
     grid-template-columns: repeat(auto-fill, 200px);
     padding: 24px;
     gap: 24px;
-    background-color: #ffe3c6;
+    background: rgba(255, 227, 198, 0.5);
 }
 
 .input-box
@@ -117,27 +123,31 @@ a button:hover
     box-shadow: 0 0 7px rgbd(0, 0, 0, 0.15);
     font-family: sans-serif;
     font-size: 16px;
-    background-color: white;
+    background: rgba(255, 227, 198, 0.5);
 }
 
 form .title
 {
-    border-bottom: none;
+    border: none;
+    background: none;
 }
 
 form .today
 {
     border: none;
+    background: none;
 }
 
 form .now
 {
     border: none;
+    background: none;
 }
 
 form .note
 {
     resize: none;
+    background: none;
 }
 
 form .deleat-button
@@ -153,6 +163,7 @@ form .deleat-button
     cursor: pointer;
     margin-left: 150px;
     margin-bottom: 5px;
+    border-radius: 10px;
 }
 
 form .deleat-button:hover

@@ -26,7 +26,12 @@ header
     justify-content: flex-end;
     align-items: center;
     padding: 0px 10%;
-    background-color: #fffaf0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 header .logo
@@ -60,6 +65,7 @@ nav
 {
     transition: all 0.1s ease 0s;
     text-decoration: none;
+    color: #ffba00;
 }
 
 .links li a:hover
@@ -93,7 +99,7 @@ a button:hover
     background: linear-gradient(-135deg, orange, red)
 }
 
-div .info-box
+#info-box
 {
     background-color: #ffe3c6;
 }
