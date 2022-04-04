@@ -10,3 +10,85 @@ body
 {
     background: linear-gradient(135deg, red, orange);
 }
+
+li a button
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #fffaf0;
+}
+
+header .logo
+{
+    max-width: 80px;
+    max-height: 60px;
+    cursor: pointer;
+    margin-right: 150px;
+    border-radius: 100%;
+    order: 1;
+}
+
+nav
+{
+    margin-left: auto;
+    order: 2;
+}
+
+.links
+{
+    list-style: none;
+}
+
+.links li
+{
+    display: inline-block;
+    padding: 0px 20px
+}
+
+.links li a
+{
+    transition: all 0.1s ease 0s;
+    text-decoration: none;
+}
+
+.links li a:hover
+{
+    color: orange;
+}
+
+.links li a:active
+{
+    color: red;
+}
+
+.contacts
+{
+    order: 3;
+}
+
+a button
+{
+    margin-left: 250px;
+    padding: 9px 25px;
+    background: linear-gradient(135deg, orange, red);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+a button:hover
+{
+    background: linear-gradient(-135deg, orange, red)
+}
