@@ -253,7 +253,7 @@ a button:hover
 
 .text .cta-text
 {
-    margin-top: 35px;
+    margin-top: 70px;
 }
 
 #call-to-action .buttons
@@ -269,7 +269,7 @@ a button:hover
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    height: 50px;
+    height: 80px;
     width: 150px;
     font-size: 18px;
     margin-bottom: 20px;
