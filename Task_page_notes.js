@@ -32,6 +32,7 @@ function addTask() {
     const submit = document.createElement("input");
     submit.setAttribute('type', "submit");
     submit.setAttribute('value', "submit");
+    submit.setAttribute('class', "submit");
 
     const deleat = document.createElement("button");
     deleat.setAttribute('type', "button");
