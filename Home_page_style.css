@@ -112,23 +112,64 @@ a button:hover
 
 #value-proposition
 {
+    margin-top: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: rgba(255, 227, 198, 0.6);
+    margin-bottom: 60px;
+}
+
+#value-proposition .logo
+{
+    margin-left: 330px;
+    max-width: 500px;
+    max-height: 350px;
+}
+
+#value-proposition p
+{
+    margin-left: 50px;
+    font-size: 31px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#benefits
+{
+    height: 300px;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: rgba(255, 227, 198, 0.6);
 }
 
-#value-proposition .logo
+#benefits .text
 {
-    margin-left: 350px;
-    max-width: 450px;
-    max-height: 300px;
+    margin-top: 40px;
+    color: white;
 }
 
-#value-proposition p
+#benefits .image
 {
-    margin-left: 100px;
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    color: white;
-    margin-bottom: 50px;
+    max-width: 500px;
+    max-height: 350px;
+    float: right;
+    margin: 0 0 0 15px;
 }
+
+#benefits .head-sentance
+{
+    margin-left: 140px;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+#benefits .sentance
+{
+    margin-top: 1px;
+    margin-left: 190px;
+    font-size: 24px;
+}
+
+
+
