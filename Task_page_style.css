@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: linear-gradient(135deg, red, orange);
+}
+
+li a button
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #fffaf0;
+}
+
+header .logo
+{
+    max-width: 80px;
+    max-height: 60px;
+    cursor: pointer;
+    margin-right: 150px;
+    border-radius: 100%;
+    order: 1;
+}
+
+nav
+{
+    margin-left: auto;
+    order: 2;
+}
+
+.links
+{
+    list-style: none;
+}
+
+.links li
+{
+    display: inline-block;
+    padding: 0px 20px
+}
+
+.links li a
+{
+    transition: all 0.1s ease 0s;
+    text-decoration: none;
+}
+
+.links li a:hover
+{
+    color: orange;
+}
+
+.links li a:active
+{
+    color: red;
+}
+
+.contacts
+{
+    order: 3;
+}
+
+a button
+{
+    margin-left: 250px;
+    padding: 9px 25px;
+    background: linear-gradient(135deg, orange, red);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: none;
+    transition: all 0.3s ease 0s;
+}
+
+a button:hover
+{
+    background: linear-gradient(-135deg, orange, red)
+}
+
+#add-task-box
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+    background-color: #ffe3c6;
+}
+
+.input-box
+{
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgbd(0, 0, 0, 0.15);
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+form .title
+{
+    border-bottom: none;
+}
+
+form .today
+{
+    border: none;
+}
+
+form .now
+{
+    border: none;
+}
+
+form .note
+{
+    resize: none;
+}
+
+form .deleat-button
+{
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    background: rgba(0, 0, 0, 0.0);
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+form .deleat-button:hover
+{
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.add-task-button
+{
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.add-task-button:hover
+{
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 130px;
+    color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, red, orange);
+}
+
+.registration-box
+{
+    max-width: 700px;
+    width: 100%;
+    background: #ffe3c6;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.registration-box .title
+{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.registration-box form .user-details
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box
+{
+    margin: 15px;
+    width: calc(100% / 2 - 50px);
+}
+
+.user-details .input-box .details
+{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input
+{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid
+{
+    border-color: orange;
+}
+
+form .registration-button
+{
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .registration-button input
+{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, orange, red);
+}
+
+form .registration-button input:hover
+{
+    background: linear-gradient(-135deg, orange, red);
+}
+
+@media (max-width: 584px) 
+{
+    .registration-box{max-width: 100%;}
+
+    form .user-details .input-box
+    {
+        margin: 15px;
+        width: 100%;
+    }
+
+    .registration-box form .user-details
+    {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .user-details::-webkit-scrollbar
+    {
+        width:0;
+    }
+}
