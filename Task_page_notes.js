@@ -7,7 +7,7 @@ function addTask() {
     const title = document.createElement("input");
     title.setAttribute('type', "text");
     title.setAttribute('class', "title");
-    title.setAttribute('placeholder',"Enter title");
+    title.setAttribute('placeholder',"Загалвие");
     title.setAttribute('required', '');
 
     const today = document.createElement("input");
@@ -27,7 +27,7 @@ function addTask() {
     discription.setAttribute('type', "text");
     discription.setAttribute('class', "note");
     discription.setAttribute('required', '');
-    discription.setAttribute('placeholder', "Some discription");
+    discription.setAttribute('placeholder', "Описание");
 
     const submit = document.createElement("input");
     submit.setAttribute('type', "submit");
