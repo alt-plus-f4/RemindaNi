@@ -280,3 +280,142 @@ a button:hover
     background: linear-gradient(-135deg, orange, red);
 }
 
+@media(max-width: 700px)
+{
+    #value-proposition .logo
+    {
+        margin-left: 30px;
+        max-width: 350px;
+        max-height: 200px;
+    }
+
+    #value-proposition p
+    {
+        margin-top: 60;
+        margin-left: 50px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    #proof .image
+    {
+        max-width: 200px;
+        max-height: 100px;
+    }
+
+    #proof
+    {
+        height: 350px;
+        margin-top: 10px;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-color: rgba(255, 227, 198, 0.6);
+    }
+
+    #proof .text
+    {
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+    }
+
+    #benefits
+    {
+        height: 500px;
+    }
+
+    #benefits .text
+    {
+        margin-top: 40px;
+    }
+
+    #benefits .image
+    {
+        max-width: 350px;
+        max-height: 1550px;
+    }
+
+    #benefits .head-sentance
+    {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    #benefits .sentance
+    {
+        margin-left: 80px;
+        font-size: 19px;
+    }
+
+    #features
+    {
+        margin-top: 25px;
+        height: 500px;
+    }
+
+    #features .image
+    {
+        max-width: 250px;
+        max-height: 150px;
+        float: none;
+        margin-left: 75px;
+    }
+
+    #features .text
+    {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #features .head-sentance
+    {
+        margin-left: 0px;
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+
+    #features .sentance
+    {
+        font-size: 24px;
+        margin-top: 1px;
+        margin-left: 10px;
+        font-size: 19px;
+    }
+
+    #call-to-action
+    {
+        margin-top: 30px;
+        height: 400px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    #call-to-action .text
+    {
+        width: 400px;
+    }
+
+    .text .cta-text
+    {
+        margin-top: 10px;
+    }
+
+    #call-to-action .buttons
+    {
+        float:unset;
+        margin-right: 0px;
+    }
+
+    #call-to-action button
+    {
+        background: linear-gradient(135deg, orange, red);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        height: 50px;
+        width: 120px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+}

@@ -112,6 +112,6 @@ form .registration-button input:hover
 
     .user-details::-webkit-scrollbar
     {
-        width:0;
+        width: 0px;
     }
 }

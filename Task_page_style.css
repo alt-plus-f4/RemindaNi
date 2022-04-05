@@ -268,3 +268,21 @@ form .submit:hover
     font-size: 130px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+@media(max-width: 584px)
+{
+    #add-task-box
+    {
+        justify-content: center;
+    }
+
+    header
+    {
+        max-width: 100%;
+    }
+
+    nav
+    {
+        margin-left: 50%;
+    }
+}
