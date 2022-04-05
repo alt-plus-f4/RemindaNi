@@ -11,7 +11,7 @@ body
     background: linear-gradient(135deg, red, orange);
 }
 
-li a button
+a button
 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -376,8 +376,6 @@ a button:hover
 
     #features .sentance
     {
-        font-size: 24px;
-        margin-top: 1px;
         margin-left: 10px;
         font-size: 19px;
     }
@@ -408,11 +406,6 @@ a button:hover
 
     #call-to-action button
     {
-        background: linear-gradient(135deg, orange, red);
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
         height: 50px;
         width: 120px;
         font-size: 13px;
