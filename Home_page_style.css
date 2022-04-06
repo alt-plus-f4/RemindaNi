@@ -101,7 +101,7 @@ nav
     display: table;
     margin: 0 auto;
     font-size: 2vmax;
-    color: white;
+    color: black;
     margin-bottom: 60px;
 }
 
@@ -124,7 +124,7 @@ nav
 {
     margin-top: 40px;
     margin-left: 10px;
-    color: white;
+    color: black;
     font-size: 2vw;
     margin-bottom: 40px;
 }
@@ -139,7 +139,7 @@ nav
 #benefits .text
 {
     margin-top: 40px;
-    color: white;
+    color: black;
     font-size: 2vw;
     margin-bottom: 50px;
 }
@@ -169,7 +169,7 @@ nav
 #features .text
 {
     margin-top: 40px;
-    color: white;
+    color: black;
     font-size: 2vw;
     margin-bottom: 50px;
 }
@@ -180,7 +180,7 @@ nav
     border-bottom-width: 5px;
     border-color: rgba(206, 238, 178, 0.4);
     font-size: 25px;
-    color: white;
+    color: black;
     margin-bottom: 40px;
 }
 
@@ -189,7 +189,7 @@ nav
     margin-top: 40px;
     margin-left: 30px;
     font-size: 2vw;
-    color: white;
+    color: black;
     margin-bottom: 40px;
 }
 
@@ -215,7 +215,7 @@ nav
     width: 140px;
     font-size: 18px;
     margin-bottom: 20px;
-    color: white;
+    color: black;
 }
 
 #call-to-action button:hover

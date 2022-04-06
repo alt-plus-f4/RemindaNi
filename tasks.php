@@ -68,7 +68,7 @@
         <?php 	foreach($res as $item) { ?> 
 
             <form id="item-<?=$item['id']?>" class="input-box" action="tasks.php?itemid=<?=$item['id']?>" method="post">
-                <a href="delete.php?item-<?=$item['id']?>" value="X">X</a>
+                <a class="delete-button" href="delete.php?item-<?=$item['id']?>" value="X">X</a>
                 <input name="title" class="title"type="text" value="<?=$item['Title']?>" placeholder="Enter title" required disabled>
                 <input name="date" class="today"type="date" value="<?=$item['Date']?>" required disabled>
                 <input name="time" class="now" type="time"  value="<?=$item['Time']?>" required disabled>

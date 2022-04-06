@@ -40,7 +40,6 @@ a button
     font-weight: 500;
     font-size: 16px;
     color:#edf0f1;
-    text-decoration: none;
 }
 
 a button:hover
@@ -130,6 +129,7 @@ form .now:valid
 }
 
 form .note{
+    max-height: 30px;
     max-width: 175px;
     resize: none;
     background: none;
@@ -164,18 +164,18 @@ form .delete-button
     margin-left: 150px;
     margin-bottom: 5px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 form .delete-button:hover
 {
-    font-size: 25px;
     background: rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
 }
 
 form .submit{
-    margin-left: 33%;
+    margin-left: 40%;
     border: none;
     outline: none;
     font-size: 14px;
@@ -199,7 +199,7 @@ form .submit:hover{
     border-radius: 4px;
 }
 
-add-task-button{
+.add-task-button{
     height: 200px;
     border: none;
     outline: none;
@@ -210,7 +210,7 @@ add-task-button{
     cursor: pointer;
 }
 
-add-task-button:hover
+.add-task-button:hover
 {
     background: rgba(0, 0, 0, 0.2);
     font-size: 130px;
