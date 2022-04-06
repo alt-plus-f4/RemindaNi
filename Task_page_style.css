@@ -6,36 +6,27 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body
-{
+body{
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
-header
-{
+header{
     display: flex;
     align-items: center;
     padding: 0px 10%;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-header:hover
-{
-    background-color: rgba(0, 0, 0, 0.3);
-}
+header:hover{background-color: rgba(0, 0, 0, 0.3);}
 
-header .logo
-{
+header .logo{
     max-width: 120px;
     max-height: 100px;
     cursor: pointer;
 }
 
-a
-{
-    margin-left: auto;
-}
+a{ margin-left: auto; color: black; width: 10px;}
 
 a button
 {
@@ -57,7 +48,7 @@ a button:hover
     background: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
-#add-task-box
+.add-task-box
 {
     margin-top: 10px;
     margin-left: 10px;
@@ -84,8 +75,8 @@ a button:hover
     background: rgba(206, 238, 178, 0.3);
 }
 
-form .title
-{
+form .title{
+    max-width: 175px;
     background: none;
     margin-bottom: 6px;
     outline: none;
@@ -96,15 +87,12 @@ form .title
     border-bottom-width: 2px;
 }
 
-form .title:focus,
-form .title:valid
-{
+form .title:focus,form .title:valid{
     border-bottom-color: rgba(206, 238, 178, 1);
     border-bottom-width: 3px;
 }
 
-form .today
-{
+form .today{
     background: none;
     margin-bottom: 6px;
     outline: none;
@@ -141,8 +129,8 @@ form .now:valid
     border-bottom-width: 3px;
 }
 
-form .note
-{
+form .note{
+    max-width: 175px;
     resize: none;
     background: none;
     margin-bottom: 6px;
@@ -152,6 +140,7 @@ form .note
     border-right: none;
     border-bottom-color: rgba(206, 238, 178, 0.9);
     border-bottom-width: 3px;
+    font-size: 14px;
 }
 
 form .note:focus,
@@ -161,7 +150,7 @@ form .note:valid
     border-bottom-width: 4px;
 }
 
-form .deleat-button
+form .delete-button
 {
     height: 30px;
     width: 30px;
@@ -177,7 +166,7 @@ form .deleat-button
     border-radius: 10px;
 }
 
-form .deleat-button:hover
+form .delete-button:hover
 {
     font-size: 25px;
     background: rgba(0, 0, 0, 0.1);
@@ -185,20 +174,21 @@ form .deleat-button:hover
     cursor: pointer;
 }
 
-form .submit
-{
+form .submit{
+    margin-left: 33%;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 14px;
+    padding: 2px;
     font-family: "Poppins", sans-serif;
     background: rgba(206, 238, 178, 0.9);
     color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
-form .submit:hover
-{
+form .submit:hover{
+    transition: linear 0.2s;
     border: none;
     outline: none;
     font-size: 18px;
@@ -209,8 +199,7 @@ form .submit:hover
     border-radius: 4px;
 }
 
-#add-task-button
-{
+add-task-button{
     height: 200px;
     border: none;
     outline: none;
@@ -221,7 +210,7 @@ form .submit:hover
     cursor: pointer;
 }
 
-#add-task-button:hover
+add-task-button:hover
 {
     background: rgba(0, 0, 0, 0.2);
     font-size: 130px;
@@ -230,18 +219,7 @@ form .submit:hover
 
 @media(max-width: 584px)
 {
-    #add-task-box
-    {
-        justify-content: center;
-    }
-
-    header
-    {
-        max-width: 100%;
-    }
-
-    nav
-    {
-        margin-left: 50%;
-    }
+    add-task-box{justify-content: center;}
+    header{max-width: 100%;}
+    nav{margin-left: 50%;}
 }
