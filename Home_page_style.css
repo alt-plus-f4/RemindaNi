@@ -8,7 +8,8 @@
 
 body
 {
-    background: linear-gradient(135deg, red, orange);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 header
@@ -85,30 +86,27 @@ nav
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: rgba(255, 227, 198, 0.6);
-    margin-bottom: 100px;
 }
 
 #value-proposition .logo
 {
-    margin-left: 300px;
-    max-width: 550px;
-    max-height: 400px;
+    display: table;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
 }
 
 #value-proposition p
 {
-    margin-top: 60;
-    margin-left: 50px;
-    font-size: 31px;
-    font-family: "Poppins", sans-serif;
+    display: table;
+    margin: 0 auto;
+    font-size: 2vmax;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #proof
 {
-    height: 250px;
-    margin-top: 10px;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: rgba(255, 227, 198, 0.6);
@@ -116,20 +114,23 @@ nav
 
 #proof .image
 {
-    margin-right: 40px;
+    display: table;
+    width: 30%;
+    height: auto;
     float: right;
 }
 
 #proof .text
 {
+    margin-top: 40px;
     margin-left: 10px;
     color: white;
-    font-size: 25px;
+    font-size: 2vw;
+    margin-bottom: 40px;
 }
 
 #benefits
 {
-    height: 300px;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: rgba(255, 227, 198, 0.6);
@@ -139,34 +140,19 @@ nav
 {
     margin-top: 40px;
     color: white;
+    font-size: 2vw;
+    margin-bottom: 50px;
 }
 
 #benefits .image
 {
-    max-width: 500px;
-    max-height: 350px;
-    float: right;
-    margin-right: 40px;
-}
-
-#benefits .head-sentance
-{
-    margin-left: 50px;
-    font-size: 25px;
-    margin-bottom: 1px;
-}
-
-#benefits .sentance
-{
-    margin-top: 1px;
-    margin-left: 100px;
-    font-size: 24px;
+    width: 35%;
+    height: auto;
+    float: left;
 }
 
 #features
 {
-    margin-top: 25px;
-    height: 275px;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: rgba(255, 227, 198, 0.6);
@@ -174,39 +160,22 @@ nav
 
 #features .image
 {
-    max-width: 450px;
-    max-height: 250px;
-    float: left;
-    margin: 0 0 0 15px;
-    margin-left: 75px;
+    width: 19%;
+    height: auto;
+    float: right;
     border-radius: 10px;
 }
 
 #features .text
 {
-    margin-left: 40px;
+    margin-top: 40px;
     color: white;
-}
-
-#features .head-sentance
-{
-    margin-left: 140px;
-    font-size: 25px;
-    margin-bottom: 1px;
-}
-
-#features .sentance
-{
-    font-size: 24px;
-    margin-top: 1px;
-    margin-left: 190px;
-    font-size: 24px;
+    font-size: 2vw;
+    margin-bottom: 50px;
 }
 
 #call-to-action
 {
-    margin-top: 30px;
-    height: 300px;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: rgba(255, 227, 198, 0.6);
@@ -217,12 +186,16 @@ nav
 
 #call-to-action .text
 {
-    width: 600px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 2vw;
+    color: white;
+    margin-bottom: 40px;
 }
 
-.text .cta-text
+#call-to-action .cta-text
 {
-    margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 #call-to-action .buttons
@@ -233,151 +206,147 @@ nav
 
 #call-to-action button
 {
-    background: linear-gradient(135deg, orange, red);
+    background: linear-gradient(-135deg, #8BC6EC 25%, #57b981 89%);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    height: 80px;
-    width: 150px;
+    height: 60px;
+    width: 140px;
     font-size: 18px;
     margin-bottom: 20px;
+    color: white;
 }
 
 #call-to-action button:hover
 {
-    background: linear-gradient(-135deg, orange, red);
+    background: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
-@media(max-width: 700px)
+@media (max-width: 786px)
 {
-    #value-proposition .logo
-    {
-        margin-left: 30px;
-        max-width: 350px;
-        max-height: 200px;
-    }
-
     #value-proposition p
     {
-        margin-top: 60;
-        margin-left: 50px;
-        font-size: 25px;
-        margin-bottom: 50px;
-    }
-
-    #proof .image
-    {
-        max-width: 200px;
-        max-height: 100px;
-    }
-
-    #proof
-    {
-        height: 350px;
-        margin-top: 10px;
-        border-bottom-style: solid;
-        border-bottom-width: 5px;
-        border-color: rgba(255, 227, 198, 0.6);
+        margin-bottom: 40px;
     }
 
     #proof .text
     {
-        margin-left: 10px;
-        color: white;
-        font-size: 20px;
-    }
-
-    #benefits
-    {
-        height: 500px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     #benefits .text
     {
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     #benefits .image
     {
-        max-width: 350px;
-        max-height: 1550px;
-    }
-
-    #benefits .head-sentance
-    {
-        margin-left: 30px;
-        font-size: 20px;
-    }
-
-    #benefits .sentance
-    {
-        margin-left: 80px;
-        font-size: 19px;
-    }
-
-    #features
-    {
-        margin-top: 25px;
-        height: 500px;
+        width: 38%;
     }
 
     #features .image
     {
-        max-width: 250px;
-        max-height: 150px;
-        float: none;
-        margin-left: 75px;
+        width: 21%;
+        border-radius: 10px;
+    }
+
+    #features .text
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #call-to-action .text
+    {
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    #call-to-action .cta-text
+    {
+        margin-bottom: 30px;
+    }
+
+    #call-to-action .buttons
+    {
+        margin-right: 30px;
+    }
+
+    #call-to-action button
+    {
+        height: 25px;
+        width: 80px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px)
+{
+    #value-proposition p
+    {
+        margin-bottom: 30px;
+    }
+
+    #proof .text
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #benefits .text
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #benefits .image
+    {
+        width: 40%;
+    }
+
+    #features .image
+    {
+        width: 22%;
+        border-radius: 10px;
     }
 
     #features .text
     {
         margin-top: 20px;
-        margin-left: 0px;
+        margin-bottom: 20px;
     }
 
-    #features .head-sentance
-    {
-        margin-left: 0px;
-        font-size: 20px;
-        margin-bottom: 1px;
-    }
-
-    #features .sentance
-    {
-        margin-left: 10px;
-        font-size: 19px;
-    }
-
-    #call-to-action
+    #features .text
     {
         margin-top: 30px;
-        height: 400px;
-        font-size: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     #call-to-action .text
     {
-        width: 400px;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 20px;
     }
 
-    .text .cta-text
+    #call-to-action .cta-text
     {
-        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     #call-to-action .buttons
     {
-        float:unset;
-        margin-right: 0px;
+        margin-right: 30px;
     }
 
     #call-to-action button
     {
-        height: 50px;
-        width: 120px;
-        font-size: 13px;
-        margin-bottom: 10px;
+        height: 10px;
+        width: 70px;
+        font-size: 8px;
     }
 }
