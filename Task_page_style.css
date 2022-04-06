@@ -11,19 +11,9 @@ body
     background: linear-gradient(135deg, red, orange);
 }
 
-a button
-{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color:#edf0f1;
-    text-decoration: none;
-}
-
 header
 {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding: 0px 10%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -39,58 +29,26 @@ header .logo
     max-width: 120px;
     max-height: 100px;
     cursor: pointer;
-    margin-right: 150px;
-    order: 1;
 }
 
-nav
+a
 {
     margin-left: auto;
-    order: 2;
-}
-
-.links
-{
-    list-style: none;
-}
-
-.links li
-{
-    display: inline-block;
-    padding: 0px 20px
-}
-
-.links li a
-{
-    transition: all 0.1s ease 0s;
-    text-decoration: none;
-    color: #ffba00;
-}
-
-.links li a:hover
-{
-    color: orange;
-}
-
-.links li a:active
-{
-    color: red;
-}
-
-.contacts
-{
-    order: 3;
 }
 
 a button
 {
-    margin-left: 250px;
     padding: 9px 25px;
     background: linear-gradient(135deg, orange, red);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
 }
 
 a button:hover

@@ -11,19 +11,9 @@ body
     background: linear-gradient(135deg, red, orange);
 }
 
-a button
-{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color:#edf0f1;
-    text-decoration: none;
-}
-
 header
 {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding: 0px 10%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -75,27 +65,6 @@ nav
 .links li a:active
 {
     color: red;
-}
-
-.contacts
-{
-    order: 3;
-}
-
-a button
-{
-    margin-left: 250px;
-    padding: 9px 25px;
-    background: linear-gradient(135deg, orange, red);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-a button:hover
-{
-    background: linear-gradient(-135deg, orange, red)
 }
 
 #info-box
