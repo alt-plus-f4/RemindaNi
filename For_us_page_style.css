@@ -8,7 +8,8 @@
 
 body
 {
-    background: linear-gradient(135deg, red, orange);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 header
@@ -39,7 +40,7 @@ a
 a button
 {
     padding: 9px 25px;
-    background: linear-gradient(135deg, orange, red);
+    background: linear-gradient(-135deg, #8BC6EC 25%, #57b981 89%);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -53,7 +54,7 @@ a button
 
 a button:hover
 {
-    background: linear-gradient(-135deg, orange, red)
+    background: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 .info-box
@@ -65,12 +66,12 @@ a button:hover
     border-radius: 5px;
     padding: 24px;
     gap: 24px;
-    background: rgba(255, 227, 198, 0.5);
+    background: rgba(206, 238, 178, 0.3);
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-top-style: solid;
     border-top-width: 5px;
-    border-color: rgba(255, 227, 198, 0.6);
+    border-color: rgba(206, 238, 178, 0.4);
 }
 
 .info-box

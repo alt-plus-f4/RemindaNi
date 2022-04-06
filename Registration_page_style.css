@@ -13,14 +13,15 @@ body
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, red, orange);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 .registration-box
 {
     max-width: 700px;
     width: 100%;
-    background: #ffe3c6;
+    background: rgba(206, 238, 178, 0.3);
     padding: 25px 30px;
     border-radius: 5px;
 }
@@ -69,7 +70,7 @@ form .user-details .input-box
 .user-details .input-box input:focus,
 .user-details .input-box input:valid
 {
-    border-color: orange;
+    border-color: green;
 }
 
 form .registration-button
@@ -86,12 +87,12 @@ form .registration-button input
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
-    background: linear-gradient(135deg, orange, red);
+    background: linear-gradient(-135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 form .registration-button input:hover
 {
-    background: linear-gradient(-135deg, orange, red);
+    background: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 @media (max-width: 584px) 

@@ -55,17 +55,17 @@ nav
 {
     transition: all 0.1s ease 0s;
     text-decoration: none;
-    color: #ffba00;
+    color: lightgreen;
 }
 
 .links li a:hover
 {
-    color: orange;
+    color: lightblue;
 }
 
 .links li a:active
 {
-    color: red;
+    color: greenyellow;
 }
 
 #info-box
@@ -77,7 +77,7 @@ nav
     border-radius: 5px;
     padding: 24px;
     gap: 24px;
-    background: rgba(255, 227, 198, 0.5);
+    background: rgba(206, 238, 178, 0.3);
 }
 
 #value-proposition
@@ -85,7 +85,7 @@ nav
     margin-top: 80px;
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-color: rgba(255, 227, 198, 0.6);
+    border-color: rgba(206, 238, 178, 0.4);
 }
 
 #value-proposition .logo
@@ -109,7 +109,7 @@ nav
 {
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-color: rgba(255, 227, 198, 0.6);
+    border-color: rgba(206, 238, 178, 0.4);
 }
 
 #proof .image
@@ -133,7 +133,7 @@ nav
 {
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-color: rgba(255, 227, 198, 0.6);
+    border-color: rgba(206, 238, 178, 0.4);
 }
 
 #benefits .text
@@ -155,7 +155,7 @@ nav
 {
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-color: rgba(255, 227, 198, 0.6);
+    border-color: rgba(206, 238, 178, 0.4);
 }
 
 #features .image
@@ -178,7 +178,7 @@ nav
 {
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-color: rgba(255, 227, 198, 0.6);
+    border-color: rgba(206, 238, 178, 0.4);
     font-size: 25px;
     color: white;
     margin-bottom: 40px;

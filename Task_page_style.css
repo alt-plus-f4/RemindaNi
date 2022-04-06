@@ -8,7 +8,8 @@
 
 body
 {
-    background: linear-gradient(135deg, red, orange);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 header
@@ -39,7 +40,7 @@ a
 a button
 {
     padding: 9px 25px;
-    background: linear-gradient(135deg, orange, red);
+    background: linear-gradient(-135deg, #8BC6EC 25%, #57b981 89%);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -53,7 +54,7 @@ a button
 
 a button:hover
 {
-    background: linear-gradient(-135deg, orange, red)
+    background: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
 #add-task-box
@@ -67,7 +68,7 @@ a button:hover
     grid-template-columns: repeat(auto-fill, 200px);
     padding: 24px;
     gap: 24px;
-    background: rgba(255, 227, 198, 0.5);
+    background: rgba(255, 227, 198, 0.3);
 }
 
 .input-box
@@ -80,7 +81,7 @@ a button:hover
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
     font-family: sans-serif;
     font-size: 16px;
-    background: rgba(255, 227, 198, 0.5);
+    background: rgba(206, 238, 178, 0.3);
 }
 
 form .title
@@ -91,14 +92,14 @@ form .title
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-color: rgba(206, 238, 178, 0.9);
     border-bottom-width: 2px;
 }
 
 form .title:focus,
 form .title:valid
 {
-    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-color: rgba(206, 238, 178, 1);
     border-bottom-width: 3px;
 }
 
@@ -110,14 +111,14 @@ form .today
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-color: rgba(206, 238, 178, 0.9);
     border-bottom-width: 2px;
 }
 
 form .today:focus,
 form .today:valid
 {
-    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-color: rgba(206, 238, 178, 1);
     border-bottom-width: 3px;
 }
 
@@ -129,14 +130,14 @@ form .now
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-color: rgba(206, 238, 178, 0.9);
     border-bottom-width: 2px;
 }
 
 form .now:focus,
 form .now:valid
 {
-    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-color: rgba(206, 238, 178, 1);
     border-bottom-width: 3px;
 }
 
@@ -149,14 +150,14 @@ form .note
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-color: rgba(255, 227, 198, 0.5);
+    border-bottom-color: rgba(206, 238, 178, 0.9);
     border-bottom-width: 3px;
 }
 
 form .note:focus,
 form .note:valid
 {
-    border-bottom-color: rgba(255, 227, 198, 0.6);
+    border-bottom-color: rgba(206, 238, 178, 1);
     border-bottom-width: 4px;
 }
 
@@ -190,7 +191,7 @@ form .submit
     outline: none;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
-    background: rgba(255, 227, 198, 0.5);
+    background: rgba(206, 238, 178, 0.9);
     color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
     border-radius: 10px;
@@ -202,7 +203,7 @@ form .submit:hover
     outline: none;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
-    background: rgba(255, 227, 198, 0.7);
+    background: rgba(206, 238, 178, 1);
     color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
     border-radius: 4px;

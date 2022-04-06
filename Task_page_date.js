@@ -11,8 +11,10 @@ else date += (today.getDate());
 
 let a = document.getElementsByClassName("today");
 
+console.log(a)
+
 for (let i = 0; i < a.length; i++) {
-  a[i].setAttribute("min", today.toISOString().substr(0, 10));;
+  //a.setAttribute("min", today.toISOString().substr(0, 10));;
 }
 
 function SetTime(){
