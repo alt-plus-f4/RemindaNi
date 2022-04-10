@@ -1,6 +1,6 @@
 # RemindaNi
 
-*https://cldup.com/dTxpPi9lDf.thumb.png*
+*https://remindani.coderr.tech/*
 
 RemindaNi е приложение, което ти позволява да следиш
 задълженията си под формата на задачи, правени от потребителя.
