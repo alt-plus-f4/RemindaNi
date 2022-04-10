@@ -1,0 +1,237 @@
+[06-Apr-2022 21:12:56 Europe/Sofia] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/hell88oe/remindani.coderr.tech/tasks.php on line 16
+[06-Apr-2022 21:12:56 Europe/Sofia] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/hell88oe/remindani.coderr.tech/tasks.php on line 45
+[06-Apr-2022 21:12:56 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 21:12:59 Europe/Sofia] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/hell88oe/remindani.coderr.tech/db.php on line 24
+[06-Apr-2022 21:20:43 Europe/Sofia] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hell88oe_remindani'@'localhost' (using password: YES) in /home/hell88oe/remindani.coderr.tech/db.php on line 24
+[06-Apr-2022 21:20:45 Europe/Sofia] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hell88oe_remindani'@'localhost' (using password: YES) in /home/hell88oe/remindani.coderr.tech/db.php on line 24
+[06-Apr-2022 21:21:25 Europe/Sofia] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hell88oe_remindani'@'localhost' (using password: YES) in /home/hell88oe/remindani.coderr.tech/db.php on line 24
+[06-Apr-2022 21:22:32 Europe/Sofia] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hell88oe_remindani'@'localhost' (using password: YES) in /home/hell88oe/remindani.coderr.tech/db.php on line 24
+[06-Apr-2022 21:23:32 Europe/Sofia] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hell88oe_remindani'@'localhost' (using password: YES) in /home/hell88oe/remindani.coderr.tech/db.php on line 24
+[06-Apr-2022 21:24:53 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/delete.php:10) in /home/hell88oe/remindani.coderr.tech/delete.php on line 18
+[06-Apr-2022 21:29:38 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 21:29:43 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 21:29:45 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 21:29:47 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 21:31:28 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 21:41:20 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 21:44:29 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 23:02:34 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 23:02:39 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 23:23:19 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[06-Apr-2022 23:23:22 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[07-Apr-2022 02:36:54 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[07-Apr-2022 03:01:52 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[07-Apr-2022 03:01:57 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[07-Apr-2022 03:37:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[08-Apr-2022 08:25:31 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/hell88oe/remindani.coderr.tech/index.php on line 18
+[08-Apr-2022 08:26:33 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/hell88oe/remindani.coderr.tech/index.php on line 18
+[08-Apr-2022 08:26:35 Europe/Sofia] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/hell88oe/remindani.coderr.tech/index.php on line 18
+[08-Apr-2022 08:28:19 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[08-Apr-2022 08:30:28 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/hell88oe/remindani.coderr.tech/index.php on line 3
+[08-Apr-2022 08:31:16 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/hell88oe/remindani.coderr.tech/index.php on line 3
+[08-Apr-2022 08:31:17 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/hell88oe/remindani.coderr.tech/index.php on line 3
+[08-Apr-2022 08:31:25 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[08-Apr-2022 08:31:31 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[08-Apr-2022 08:36:11 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/hell88oe/remindani.coderr.tech/index.php on line 32
+[08-Apr-2022 10:47:31 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[08-Apr-2022 10:48:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[08-Apr-2022 10:48:43 Europe/Sofia] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/hell88oe/remindani.coderr.tech/db.php on line 63
+[08-Apr-2022 10:49:39 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/hell88oe/remindani.coderr.tech/db.php:64
+Stack trace:
+#0 /home/hell88oe/remindani.coderr.tech/register.php(11): DataBase->signUp('users', 'vasd@asd.bg', 'asd', '$2y$10$fVkpJQsg...', 'sadda#3213', 'asd')
+#1 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/db.php on line 64
+[08-Apr-2022 10:54:07 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/hell88oe/remindani.coderr.tech/db.php:64
+Stack trace:
+#0 /home/hell88oe/remindani.coderr.tech/register.php(11): DataBase->signUp('users', 'vasd@asd.bg', 'asd', '$2y$10$6omAlkRF...', 'sadda#3213', 'asd')
+#1 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/db.php on line 64
+[08-Apr-2022 10:54:27 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/hell88oe/remindani.coderr.tech/db.php:64
+Stack trace:
+#0 /home/hell88oe/remindani.coderr.tech/register.php(11): DataBase->signUp('users', 'vasd@asd.bg', 'asd', '$2y$10$m6eIGAcF...', 'sadda#3213', 'asd')
+#1 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/db.php on line 64
+[08-Apr-2022 10:54:42 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/hell88oe/remindani.coderr.tech/db.php on line 61
+[08-Apr-2022 10:54:56 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/hell88oe/remindani.coderr.tech/db.php:61
+Stack trace:
+#0 /home/hell88oe/remindani.coderr.tech/register.php(11): DataBase->signUp('users', 'vasd@asd.bg', 'asd', '$2y$10$tBClfHiD...', 'sadda#3213', 'asd')
+#1 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/db.php on line 61
+[08-Apr-2022 10:55:51 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 47
+[08-Apr-2022 11:09:49 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/hell88oe/remindani.coderr.tech/register.php on line 13
+[08-Apr-2022 11:10:04 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/hell88oe/remindani.coderr.tech/register.php on line 13
+[08-Apr-2022 11:10:15 Europe/Sofia] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/hell88oe/remindani.coderr.tech/db.php on line 63
+[08-Apr-2022 11:10:24 Europe/Sofia] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/hell88oe/remindani.coderr.tech/db.php on line 63
+[08-Apr-2022 20:05:02 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:02 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:02 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:05:34 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:34 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:34 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:05:35 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:35 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:35 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:05:36 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:36 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:36 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:05:36 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:36 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:36 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:05:47 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:47 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:47 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:05:47 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:47 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:47 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:05:48 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 43
+[08-Apr-2022 20:05:48 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 44
+[08-Apr-2022 20:05:48 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/login-discord.php:43) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 47
+[08-Apr-2022 20:06:32 Europe/Sofia] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/hell88oe/remindani.coderr.tech/login-discord.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 70
+[08-Apr-2022 20:18:36 Europe/Sofia] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/hell88oe/remindani.coderr.tech/login-discord.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 70
+[08-Apr-2022 20:49:36 Europe/Sofia] PHP Parse error:  syntax error, unexpected ')' in /home/hell88oe/remindani.coderr.tech/register.php on line 7
+[08-Apr-2022 20:49:58 Europe/Sofia] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/hell88oe/remindani.coderr.tech/db.php on line 62
+[09-Apr-2022 17:36:18 Europe/Sofia] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/hell88oe/remindani.coderr.tech/verify.php on line 61
+[09-Apr-2022 17:36:18 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/hell88oe/remindani.coderr.tech/verify.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/verify.php on line 63
+[09-Apr-2022 17:37:28 Europe/Sofia] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ')' in /home/hell88oe/remindani.coderr.tech/verify.php on line 67
+[09-Apr-2022 17:40:58 Europe/Sofia] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/hell88oe/remindani.coderr.tech/verify.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/verify.php on line 73
+[09-Apr-2022 17:45:51 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_row() in /home/hell88oe/remindani.coderr.tech/verify.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/verify.php on line 69
+[09-Apr-2022 17:46:05 Europe/Sofia] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/hell88oe/remindani.coderr.tech/verify.php on line 69
+[09-Apr-2022 19:29:55 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/hell88oe/remindani.coderr.tech/tasks.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/tasks.php on line 51
+[09-Apr-2022 21:11:15 Europe/Sofia] PHP Parse error:  syntax error, unexpected '$conf' (T_VARIABLE) in /home/hell88oe/remindani.coderr.tech/verify.php on line 5
+[09-Apr-2022 21:12:06 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/hell88oe/remindani.coderr.tech/verify.php on line 49
+[09-Apr-2022 21:33:30 Europe/Sofia] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/hell88oe/remindani.coderr.tech/verify.php on line 48
+[09-Apr-2022 21:42:06 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/verify.php:13) in /home/hell88oe/remindani.coderr.tech/verify.php on line 38
+[09-Apr-2022 21:46:38 Europe/Sofia] PHP Warning:  A non-numeric value encountered in /home/hell88oe/remindani.coderr.tech/verify.php on line 47
+[09-Apr-2022 21:46:38 Europe/Sofia] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/hell88oe/remindani.coderr.tech/verify.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/hell88oe/remindani.coderr.tech/verify.php on line 47
+[09-Apr-2022 22:02:39 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/verify.php:20) in /home/hell88oe/remindani.coderr.tech/verify.php on line 38
+[09-Apr-2022 22:10:59 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}' in /home/hell88oe/remindani.coderr.tech/verify.php on line 37
+[09-Apr-2022 22:18:27 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/verify.php:19) in /home/hell88oe/remindani.coderr.tech/verify.php on line 40
+[09-Apr-2022 22:19:19 Europe/Sofia] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hell88oe/remindani.coderr.tech/verify.php:19) in /home/hell88oe/remindani.coderr.tech/verify.php on line 40
+[09-Apr-2022 22:28:40 Europe/Sofia] PHP Parse error:  syntax error, unexpected '?>' in /home/hell88oe/remindani.coderr.tech/verify.php on line 57
+[09-Apr-2022 22:50:37 Europe/Sofia] PHP Notice:  Undefined variable: servername in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 56
+[09-Apr-2022 22:50:37 Europe/Sofia] PHP Notice:  Undefined variable: username in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 56
+[09-Apr-2022 22:50:37 Europe/Sofia] PHP Notice:  Undefined variable: password in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 56
+[09-Apr-2022 22:50:37 Europe/Sofia] PHP Notice:  Undefined variable: dbname in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 56
+[09-Apr-2022 22:50:37 Europe/Sofia] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 56
+[09-Apr-2022 22:50:37 Europe/Sofia] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 58
+[09-Apr-2022 22:50:37 Europe/Sofia] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 60
+[09-Apr-2022 22:52:02 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 46
+[09-Apr-2022 22:52:02 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 48
+[09-Apr-2022 22:52:06 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 50
+[09-Apr-2022 22:52:06 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 52
+[09-Apr-2022 22:52:06 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 50
+[09-Apr-2022 22:52:06 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 52
+[09-Apr-2022 22:52:33 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 50
+[09-Apr-2022 22:52:33 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 52
+[09-Apr-2022 22:52:34 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 50
+[09-Apr-2022 22:52:34 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 52
+[09-Apr-2022 22:52:59 Europe/Sofia] PHP Notice:  Undefined variable: dbname in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 60
+[09-Apr-2022 22:52:59 Europe/Sofia] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 64
+[09-Apr-2022 22:53:45 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 22:53:45 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 22:53:47 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 22:53:47 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 22:53:53 Europe/Sofia] PHP Notice:  Array to string conversion in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 67
+[09-Apr-2022 22:55:34 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 22:55:34 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 22:55:35 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 22:55:35 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 22:55:35 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 22:55:35 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 22:57:21 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 22:57:21 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 22:58:31 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 22:58:31 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 23:03:25 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 23:03:25 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53
+[09-Apr-2022 23:04:20 Europe/Sofia] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 23:04:21 Europe/Sofia] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 23:07:07 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 51
+[09-Apr-2022 23:07:07 Europe/Sofia] PHP Notice:  Undefined property: stdClass::$access_token in /home/hell88oe/remindani.coderr.tech/login-discord.php on line 53

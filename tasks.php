@@ -11,6 +11,10 @@
     if(!$user_id = $_SESSION['id'])
         header("Location: login.php");
 
+    if($_SESSION['status'] < 2)
+        header("Location: index.php");
+
+
     $res = [];
 
     $conn = new mysqli($servername, $username, $password, $dbname) or die("Connection failed: " . $conn->connect_error);
@@ -24,18 +28,18 @@
             $desc  = $_POST['desc']??'';
 
             (int) $link_id = (int) filter_var($form_index, FILTER_SANITIZE_NUMBER_INT);
-            $sql = "UPDATE `$db` SET `UserId` = '$user_id', `Title` = '$title', `Date` = '$date', `Time` = '$time', `Description` = '$desc' WHERE `ass`.`id` = $link_id;"; // UserID not added
+            $sql = "UPDATE `$db` SET `UserId` = '$user_id', `Title` = '$title', `Date` = '$date', `Time` = '$time', `Description` = '$desc' WHERE `ass`.`id` = $link_id;"; // UserID added
             
             if ($conn->query($sql))
                 header("Location: tasks.php");
         }
 
-        else {                                          // Submitting
+        else {                                                    // Submitting
             $date  = $_POST['date']??'';
             $time  = $_POST['time']??'';
             $desc  = $_POST['desc']??'';
             
-            $sql = "INSERT INTO `$db` (`id`, `UserId`, `Title`, `Date`, `Time`, `Description`) VALUES (NULL, '$user_id', '$title', '$date', '$time', '$desc'); "; // UserID not added
+            $sql = "INSERT INTO `$db` (`id`, `UserId`, `Title`, `Date`, `Time`, `Description`) VALUES (NULL, '$user_id', '$title', '$date', '$time', '$desc'); "; // UserID added
           
             if ($conn->query($sql))
                 header("Location: tasks.php");
@@ -48,22 +52,51 @@
         $res[] = $row;
 
     $conn->close();
+
+    if($_SESSION['id'] != NULL)
+        $logged = 1;
+    else $logged = 0;
 ?> 
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Tasks</title>
+        <link rel="stylesheet" type="text/css" href="Burger_style.css">
         <link rel="stylesheet" type="text/css" href="Task_page_style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="top-bar">
-            <header>
-                <h1><img class="logo" src="logo.png" alt="logo"></h1>
-                <a class="contacts" href="index.html"><button>Начало</button></a>
-            </header>
-        </div>
+        <header class="top-bar">
+            <div class="left">
+                <a href="/"><img class="logo" src="logo.png" alt="logo"></a>
+            </div>
+            <nav class="right">
+                <ul class="links">
+                <li><a href="forus.php">За нас</a></li>
+                <li><a href="index.php">Начална страница</a></li>
+                
+                <?php if($logged == 0){ ?>
+
+                <li><a href="register.php">Регистрация</a></li>
+                <li><a href="login.php">Влез</a></li>
+                    
+                <?php }?>
+                <?php if($logged == 1){ ?>
+
+                <li><a href="logout.php">Излез</a></li>
+
+                <?php }?>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <script src="burger.js"></script>
+            </nav>
+        </header>
         <div class="add-task-box">
         <?php 	foreach($res as $item) { ?> 
 
@@ -82,7 +115,7 @@
                 <input name="title" class="title" type="text" placeholder="Enter title" required>
                 <input name="date" class="today" type="date" required>
                 <input name="time" type="time" class="now" value="23:59" required="">
-                <textarea name="desc" class="note" required >Description</textarea>
+                <textarea name="desc" class="note" placeholder="Description" required></textarea>
                 <input name="submit" class="submit" type="submit" value="submit">
             </form>
 

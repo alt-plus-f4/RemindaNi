@@ -6,9 +6,7 @@
     $db = new DataBase();
 
     $form_index = $_SERVER['REQUEST_URI'];
-
-    print($form_index);
-
+    
     if (strpos($form_index,"/delete.php?item-") !== FALSE){
 
         $id = explode("-", $form_index);

@@ -11,20 +11,18 @@ body{
     background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
 }
 
-header{
-    display: flex;
-    align-items: center;
-    padding: 0px 10%;
-    background-color: rgba(0, 0, 0, 0.2);
-}
 
-header:hover{background-color: rgba(0, 0, 0, 0.3);}
-
-header .logo{
-    max-width: 120px;
-    max-height: 100px;
-    cursor: pointer;
-}
+.top-bar{max-width: 100%; overflow: hidden;background-color: rgba(0, 0, 0, 0.2);}
+.top-bar:hover{transition: linear 0.2s;background-color: rgba(0, 0, 0, 0.3);}
+.logo{margin-left: 60px;max-width: 120px;max-height: 100px;cursor: pointer;}
+.left{float:left;}
+.right{float:right; align-items: center;}
+nav{margin-right: 30px;}
+.links{list-style: none; margin: 1rem;}
+.links li{display: inline-block;padding: 0px 20px;}
+.links li a{transition: all 0.1s ease 0s;text-decoration: none;color: lightgreen;}
+.links li a:hover{color: lightblue;}
+.links li a:active{color: greenyellow;}
 
 a{ margin-left: auto; color: black; width: 10px;}
 

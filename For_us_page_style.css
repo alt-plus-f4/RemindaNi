@@ -1,61 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body
-{
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header
-{
-    display: flex;
-    align-items: center;
-    padding: 0px 10%;
-    background-color: rgba(0, 0, 0, 0.2);
-}
+body{background-color: #8BC6EC;background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%); margin: 0;padding: 0;box-sizing: border-box;}
+.top-bar{max-width: 100%; overflow: hidden;background-color: rgba(0, 0, 0, 0.2);}
+.top-bar:hover{transition: linear 0.2s;background-color: rgba(0, 0, 0, 0.3);}
+.logo{margin-left: 60px;max-width: 120px;max-height: 100px;cursor: pointer;}
+.left{float:left;}
+.right{float:right; align-items: center;}
+nav{margin-right: 30px;}
+.links{list-style: none; margin: 1rem;}
+.links li{display: inline-block;padding: 0px 20px;}
+.links li a{transition: all 0.1s ease 0s;text-decoration: none;color: lightgreen;}
+.links li a:hover{color: lightblue;}
+.links li a:active{color: greenyellow;}
 
-header:hover
-{
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-header .logo
-{
-    max-width: 120px;
-    max-height: 100px;
-    cursor: pointer;
-}
-
-a
-{
-    margin-left: auto;
-}
-
-a button
-{
-    padding: 9px 25px;
-    background: linear-gradient(-135deg, #8BC6EC 25%, #57b981 89%);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color:#edf0f1;
-    text-decoration: none;
-}
-
-a button:hover
-{
-    background: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
-}
 
 .info-box
 {
@@ -77,6 +48,6 @@ a button:hover
 .info-box
 {
     color: black;
-    font-family: "Poppins" sans-serif;
+    font-family: "Montserrat" sans-serif;
     font-size: 25px;
 }

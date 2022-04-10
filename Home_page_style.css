@@ -1,79 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body
-{
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
-}
-
-header
-{
-    display: flex;
-    align-items: center;
-    padding: 0px 10%;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-header:hover
-{
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-header .logo
-{
-    max-width: 120px;
-    max-height: 100px;
-    cursor: pointer;
-    margin-right: 150px;
-    order: 1;
-}
-
-nav
-{
-    margin-left: auto;
-    order: 2;
-}
-
-.links
-{
-    list-style: none;
-}
-
-.links li
-{
-    display: inline-block;
-    padding: 0px 20px
-}
-
-.links li a
-{
-    transition: all 0.1s ease 0s;
-    text-decoration: none;
-    color: lightgreen;
-}
-
-.links li a:hover
-{
-    color: lightblue;
-}
-
-.links li a:active
-{
-    color: greenyellow;
-}
+body{background-color: #8BC6EC;background-image: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);}
+.top-bar{max-width: 100%; overflow: hidden;background-color: rgba(0, 0, 0, 0.2);}
+.top-bar:hover{transition: linear 0.2s;background-color: rgba(0, 0, 0, 0.3);}
+.left .logo{margin-left: 60px;max-width: 120px;max-height: 100px;cursor: pointer;}
+.left{float:left;}
+.right{float:right; align-items: center;}
+nav{margin-right: 30px;}
+.links{list-style: none; margin: 1rem;}
+.links li{display: inline-block;padding: 0px 20px;}
+.links li a{transition: all 0.1s ease 0s;text-decoration: none;color: lightgreen;}
+.links li a:hover{color: lightblue;}
+.links li a:active{color: greenyellow;}
+.verify{display:grid;}
+.verify a{justify-self: center; margin-top: 15px;}
+.discord-log-in {font-size: 20px;color: white;background-color: #7289da;width: fit-content;height: fit-content;border-radius: 5px;border: None;padding:10px;cursor: pointer;}
+.discord-log-in:hover{transition: linear 0.2s;color: #7289da;background-color: white;}
+.email-verify {font-size: 20px;color: black;background-color: #ad4120;width: fit-content;height: fit-content;border-radius: 5px;border: None;padding:10px;cursor: pointer;}
+.email-verify:hover{transition: linear 0.2s;color: #ad4120;background-color: black;}
+.dropdown {transition: all 0.2s ease-in-out;overflow: hidden;cursor: pointer;}
+.dropdown.closed .menu {height: 0px;}
+.burger {display: none;cursor: pointer;}
+.burger div {width: 25px;height: 4px;background-color: #ffff;margin: 5px;transition: all 0.3s ease-in;}
 
 #info-box
 {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    max-height: 100%;
+    margin: 20px;
     border-radius: 5px;
     padding: 24px;
     gap: 24px;
@@ -176,6 +135,7 @@ nav
 
 #call-to-action
 {
+    max-height: 100%;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: rgba(206, 238, 178, 0.4);
@@ -218,6 +178,8 @@ nav
     color: black;
 }
 
+.discord{float: left; margin-right: 10px; width: auto; height: 20rem;}
+
 #call-to-action button:hover
 {
     background: linear-gradient(135deg, #8BC6EC 25%, #57b981 89%);
@@ -225,67 +187,43 @@ nav
 
 @media (max-width: 786px)
 {
-    #value-proposition p
-    {
-        margin-bottom: 40px;
+    body {overflow-x: hidden;}
+    #value-proposition p{margin-bottom: 40px;}
+    .discord{width: 10rem;height: 11rem;}
+    .discord-log-in {font-size: 14px;padding:6px;}
+    .email-verify {font-size: 14px;padding:6px;}
+    #proof .text{margin-top: 30px;margin-bottom: 30px;}
+    #benefits .text{margin-top: 30px;margin-bottom: 30px;}
+    #benefits .image{width: 38%;}
+    #features .image{width: 21%;border-radius: 10px;}
+    #features .text{margin-top: 30px;margin-bottom: 30px;}
+    #call-to-action .text{margin-top: 30px;margin-left: 10px;margin-bottom: 30px;}
+    #call-to-action .cta-text{margin-bottom: 30px;}
+    #call-to-action .buttons{margin-right: 30px;}
+    .burger {display: block;}
+    .links {position: fixed;top: 8vh;right: -20px;height: 92vh;width: 50%;flex-direction: column;align-items: center;justify-content: space-around;background: #659DC2;transform: translateX(100%);transition: transform 1s ease;box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);}
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
     }
 
-    #proof .text
-    {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    #benefits .text
-    {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    #benefits .image
-    {
-        width: 38%;
-    }
-
-    #features .image
-    {
-        width: 21%;
-        border-radius: 10px;
-    }
-
-    #features .text
-    {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    #call-to-action .text
-    {
-        margin-top: 30px;
-        margin-left: 10px;
-        margin-bottom: 30px;
-    }
-
-    #call-to-action .cta-text
-    {
-        margin-bottom: 30px;
-    }
-
-    #call-to-action .buttons
-    {
-        margin-right: 30px;
-    }
-
-    #call-to-action button
-    {
-        height: 25px;
-        width: 80px;
-        font-size: 10px;
-    }
+    .right.show .line1 {transform: translate(-10px) rotate(45deg) translate(15px);}
+    .right.show .line2 {opacity: 0;}
+    .right.show .line3 {transform: translate(-10px) rotate(-45deg) translate(15px);}
+    .right.show .links {transform: translateX(0%);}
+    .links li{margin: 100px;}
+    #call-to-action button{height: 25px;width: 80px;font-size: 10px;}
 }
 
 @media (max-width: 480px)
 {
+    .links li{margin: 50px;}
     #value-proposition p
     {
         margin-bottom: 30px;

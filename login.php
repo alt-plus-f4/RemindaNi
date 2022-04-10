@@ -6,12 +6,12 @@ $db = new DataBase();
 
 $form_index = $_SERVER['REQUEST_URI'];
 
-if (isset($_POST['username']) && isset($_POST['password'])) {
+if (isset($_POST['email']) && isset($_POST['password'])) {
     if ($db->dbConnect()) {
-        if ($db->logIn("users", $_POST['username'], $_POST['password'])) {
+        if ($db->logIn("users", $_POST['email'], $_POST['password'])) {
             header("Location: tasks.php");
-        } else echo "Username or Password wrong";
-    } else echo "Error: Database connection";
+        } else $error =  "Потребителското име или паролата са грешни!";
+    } else $error = "Error: Database connection";
 }
 
 ?>
@@ -21,28 +21,31 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         <meta charset="UTF-8">
         <title>Log In</title>
         <link rel="stylesheet" type="text/css" href="Login_page_style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="login-box">
-            <div class="title">Login here</div>
+            <div class="title">Влез в акаунта си</div>
             <form action="login.php" method="post">
                 <div class="user-details">
                     <div class="input-box">
-                        <span class="details">Username</span>
-                        <input name="username" type="text" placeholder="Enter Username" required>
+                        <span class="details">Email</span>
+                        <input name="email" type="email" placeholder="Въведи email" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Password</span>
-                        <input name="password" type="password" placeholder="Enter Password" required>
+                        <span class="details">Парола</span>
+                        <input name="password" type="password" placeholder="Въведи парола" required>
                     </div>
                 </div>
+                <div class="err">
+                    <a><?php print($error); ?></a>
+                </div>
                 <div class="login-button">
-                    <input type="submit" value="Login">
+                    <input type="submit" value="Влез">
                 </div>
                 <div class="additional-links">
-                    <a href="Lost_password_page.html">Lost password?</a><br>
-                    <a href="register.php">Not registerd?</a>
+                    <a href="register.php">Не си регистриран?</a>
                 </div>
             </form>
         </div>

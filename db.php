@@ -1,5 +1,36 @@
 <?php
 
+function smtpmailer($to, $body){
+    $mail = new PHPMailer();
+    $mail->IsSMTP();
+    $mail->SMTPAuth = true; 
+    // $mail->SMTPDebug  = 1;
+    
+    $mail->Host = "";
+    $mail->Port = ;  
+    $mail->Username = "";
+    $mail->Password = "";
+
+    $mail->IsHTML(false);
+    $mail->From="";
+    $mail->FromName="";
+    $mail->Sender="";
+    $mail->AddReplyTo("", "");
+    $mail->Subject = "";
+    $mail->Body = $body;
+    $mail->AddAddress($to);
+    if(!$mail->Send())
+    {
+        $error ="Please try Later, Error Occured while Processing...";
+        return $error; 
+    }
+    else 
+    {
+        $error = "Thanks You !! Your email is sent.";  
+        return $error;
+    }
+}
+
 class DataBase{
     public $connect;
     public $data;
@@ -29,17 +60,19 @@ class DataBase{
         return mysqli_real_escape_string($this->connect, stripslashes(htmlspecialchars($data)));
     }
 
-    function logIn($table, $username, $password){
-        $username = $this->prepareData($username);
+    function logIn($table, $email, $password){
+        $email = $this->prepareData($email);
         $password = $this->prepareData($password);
-        $this->sql = "SELECT * FROM " . $table . " WHERE username = '" . $username . "'";
+        $this->sql = "SELECT * FROM " . $table . " WHERE email = '" . $email . "'";
         $result = mysqli_query($this->connect, $this->sql);
         $row = mysqli_fetch_assoc($result);
         if (mysqli_num_rows($result) != 0) {
 
             session_start();
-
-            $_SESSION['username'] = $row['username'];
+            
+            $_SESSION['name'] = $row['name'];
+            $_SESSION['email'] = $row['email'];
+            $_SESSION['status'] = $row['status'];
             $_SESSION['id'] = $row['id'];
 
         } else return false;
@@ -47,33 +80,43 @@ class DataBase{
         return true;
     }
 
-    function signUp($table, $email, $username, $password, $discord, $name){
-        $username = $this->prepareData($username);
+    function signUp($table, $email, $name, $password){
+        $name = $this->prepareData($name);
         $password = $this->prepareData($password);
         $email = $this->prepareData($email);
         $password = password_hash($password, PASSWORD_DEFAULT);
-        $discord = $this->prepareData($discord);
-        $name = $this->prepareData($name);
+        $status = 1;
+        $secret = sha1($email.time());
 
-        $this->sql = "INSERT INTO `$table` (`id`, `username`, `password`, `email`, `discord`, `name`) VALUES (NULL, '$username','$password','$email','$discord','$name')";
+        $this->sql = "SELECT * FROM $table WHERE `name` = '$name' OR 'email' = '$email'; "; // No repeating emails or usernames
 
-        if (mysqli_query($this->connect, $this->sql)) {
+        $result = mysqli_query($this->connect, $this->sql);
 
-            $this->sql = "SELECT `id` FROM $table WHERE `username` = '$username'; ";
+        if(mysqli_num_rows($result) != 0)
+            return false;
 
-            $result = mysqli_query($this->connect, $this->sql);
-            $row = mysqli_fetch_assoc($result);
+        else{
+            $this->sql = "INSERT INTO `$table` (`id`, `name`, `password`, `email`, `status`, `secret`, `discord_id`) VALUES (NULL, '$name','$password','$email','$status','$secret', 0)";
 
-            session_start();
-
-            $_SESSION['username'] = $row['username'];
-            $_SESSION['id'] = $row['id'];
-
-            
-
-            return true;
+            if (mysqli_query($this->connect, $this->sql)) {
+    
+                $this->sql = "SELECT * FROM $table WHERE `email` = '$email'; ";
+    
+                $result = mysqli_query($this->connect, $this->sql);
+                $row = mysqli_fetch_assoc($result);
+    
+                session_start();
                 
-        } else return false;
+                $_SESSION['name'] = $row['name'];
+                $_SESSION['email'] = $row['email'];
+                $_SESSION['status'] = $row['status'];
+                $_SESSION['id'] = $row['id'];
+    
+                return true;
+                    
+            }
+            else return "Error!";
+        }
     }
 
     function delete($id){
